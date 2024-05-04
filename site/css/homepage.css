@@ -1,0 +1,323 @@
+.mediaViewInfo {
+    --web-view-name: home_page;
+    --web-view-id: home_page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: home_page;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    
+}
+#home_page {
+    position: absolute;
+    width: 100%;
+    height: 836px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: home_page;
+    --web-view-id: home_page;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+#homepic1 {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 3px;
+    top: 0px;
+    overflow: visible;
+}
+#header {
+    position: fixed;
+}
+#Rectangle_21 {
+    opacity: 0.67;
+    fill: rgba(44,45,52,1);
+}
+.Rectangle_21 {
+    position: absolute;
+    width: 100%;
+    height: 526px;
+    left: 3px;
+    top: 81px;
+    overflow: visible;
+}
+#Rectangle_3 {
+    fill: rgba(152,180,166,1);
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    height: 236px;
+    left: 3px;
+    top: 600px;
+}
+#Lets_do_it_together {
+    left: 78px;
+    top: 164px;
+    position: absolute;
+    overflow: visible;
+    width: 854px;
+    height: 93px;
+    text-align: center;
+    font-family: Houndtime;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    color: rgba(255,255,255,1);
+}
+#We_travel_the_word_in_search_o {
+    opacity: 0.8;
+    left: 83px;
+    top: 277px;
+    position: absolute;
+    overflow: visible;
+    width: 888px;
+    height: 76px;
+    text-align: center;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Component_1__1 {
+    opacity: 0.81;
+    position: absolute;
+    width: 202px;
+    height: 53px;
+    left: 437px;
+    top: 365px;
+    overflow: visible;
+}
+#Rectangle_4 {
+    fill: rgba(253,95,0,1);
+}
+.Rectangle_4 {
+    position: absolute;
+    width: 202px;
+    height: 53px;
+    left: 0px;
+    top: 0px;
+}
+#view_laste_post {
+    left: 464px;
+    top: 377px;
+    position: absolute;
+    overflow: visible;
+    width: 153px;
+    height: 26px;
+    text-align: center;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#Rectangle_2 {
+    opacity: 0.31;
+    fill: rgba(132,210,112,1);
+}
+.Rectangle_2 {
+    mix-blend-mode: darken;
+    position: fixed;
+    width: 100%;
+    height: 80.684px;
+    left: 0px;
+    top: 0px;
+}
+
+.menu{
+    width: 400px;
+    height: 70px;
+    display:flex;
+    position: absolute;
+    margin-left: 500px;
+}
+ul{
+    display: flex;
+
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 72px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:#ff7200;
+}
+
+
+
+.logo{
+    position: absolute;
+    width: 392px;
+    height: 69px;
+    font-size: 60px;
+    font-family: Houndtime;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 20px;
+}    
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+#Rectangle_1 {
+    opacity: 0.28;
+    fill: rgba(12,14,15,1);
+}
+.Rectangle_1 {
+    width: 100%;
+    height: 233px;
+    position: absolute;
+    overflow: visible;
+    transform: matrix(1,0,0,1,-3,600) rotate(0deg);
+    transform-origin: center;
+}
+#Fun {
+    left: 1338px;
+    top: 638px;
+    position: absolute;
+    overflow: visible;
+    width: 272px;
+    height: 50px;
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Fun_blog.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+    
+}
+
+
+#Game {
+    left: 1093px;
+    top: 638px;
+    position: absolute;
+    overflow: visible;
+    width: 272px;
+    height: 50px;
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Game_blog.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}
+#Technology {
+    left: 792px;
+    top: 638px;
+    position: absolute;
+    overflow: visible;
+    width: 328px;
+    height: 50px;
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Technology_blog.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}
+#Cooking {
+    left: 549px;
+    top: 638px;
+    position: absolute;
+    overflow: visible;
+    width: 272px;
+    height: 50px;
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: cooking_blog.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}
+#Music {
+    left: 313px;
+    top: 638px;
+    position: absolute;
+    overflow: visible;
+    width: 272px;
+    height: 50px;
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: Music_blog.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}
+#Movie {
+    left: 58px;
+    top: 638px;
+    position: absolute;
+    overflow: visible;
+    width: 272px;
+    height: 50px;
+    transition: all 0.30000001192092896s ease-out;
+    --web-animation: fadein 0.30000001192092896s ease-out;
+    --web-action-type: page;
+    --web-action-target: movie_blog.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}
